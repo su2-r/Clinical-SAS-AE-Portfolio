@@ -1,0 +1,16 @@
+SUBJID,AETERM,AESTDTC,AESEV
+101-001,High blood pressure,2026-05-28,MILD
+101-001,Severe throbbing head pain,2026-06-03,SEVERE
+101-002,Mild nausea,2026-05-10,MILD
+101-002,Dizziness,2026-06-02,MILD
+101-003,Fatigue,2026-06-01,MILD
+101-003,Alanine aminotransferase increased,2026-06-05,MODERATE
+101-004,Rash maculo-papular,2026-05-20,MILD
+101-004,Shortness of breath,2026-06-04,SEVERE
+101-005,Insomnia,2026-06-02,MILD
+101-005,Diarrhea,2026-06-03,MODERATE
+101-006,Vomiting,2026-05-15,MILD
+101-006,Headache,2026-06-01,MILD
+101-007,Upper respiratory tract infection,2026-06-06,MILD
+101-007,Chest discomfort,2026-06-10,MODERATE
+101-008,Joint swelling,2026-06-02,MODERATE
