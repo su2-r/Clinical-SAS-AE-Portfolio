@@ -1,4 +1,3 @@
-SAS
 /************************************************************************
 * Program: 01_adae_derivation.sas
 * Purpose: Import raw AE data and derive Treatment-Emergent Flag (TRTEMFL)
@@ -17,7 +16,7 @@ run;
 data work.adae;
     set work.raw_ae;
 
-    /* Hardcoded sample first dose date for demonstration (01JUN2026) */
+    /* Sample first dose date for demonstration (01JUN2026) */
     TRTSDT = '01JUN2026'd; 
     format TRTSDT date9.;
 
