@@ -1,16 +1,1006 @@
-SUBJID,AETERM,AESTDTC,AESEV
-101-001,High blood pressure,2026-05-28,MILD
-101-001,Severe throbbing head pain,2026-06-03,SEVERE
-101-002,Mild nausea,2026-05-10,MILD
-101-002,Dizziness,2026-06-02,MILD
-101-003,Fatigue,2026-06-01,MILD
-101-003,Alanine aminotransferase increased,2026-06-05,MODERATE
-101-004,Rash maculo-papular,2026-05-20,MILD
-101-004,Shortness of breath,2026-06-04,SEVERE
-101-005,Insomnia,2026-06-02,MILD
-101-005,Diarrhea,2026-06-03,MODERATE
-101-006,Vomiting,2026-05-15,MILD
-101-006,Headache,2026-06-01,MILD
-101-007,Upper respiratory tract infection,2026-06-06,MILD
-101-007,Chest discomfort,2026-06-10,MODERATE
-101-008,Joint swelling,2026-06-02,MODERATE
+SUBJ,RAW_TERM,TOX_GR,AESTDTC,AEENDTC,terms1,terms2,terms3,terms4,terms5,TRTSDT
+1001,Diarrhea,3,2026-04-12,2026-04-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1002,Diarrhea,4,2026-03-12,2026-03-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1002,Diarrhea,3,2026-02-20,2026-02-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1002,Diarrhea,4,2026-02-28,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1002,Rash maculo-papular,4,2026-03-11,2026-03-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1002,Rash maculo-papular,5,2026-04-07,2026-04-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1002,Diarrhea,3,2026-03-12,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1003,Diarrhea,4,2026-02-21,2026-02-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1003,Nausea,1,2026-03-16,2026-03-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1003,Fatigue,3,2026-03-06,2026-03-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1003,Nausea,3,2026-02-17,2026-02-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1003,Nausea,1,2026-02-26,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1003,Nausea,1,2026-03-20,2026-04-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1004,Diarrhea,3,2026-04-27,2026-05-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-04
+1005,Stomatitis,3,2026-03-10,2026-03-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1005,Stomatitis,3,2026-01-24,2026-02-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1006,Diarrhea,4,2026-03-17,2026-03-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1006,Diarrhea,1,2026-02-18,2026-02-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1006,Nausea,3,2026M03,2026-03-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1007,Nausea,1,2026-02-13,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-19
+1007,Fatigue,1,2026-03-17,2026-03-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-19
+1007,Nausea,2,2026-03-14,2026-03-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-19
+1008,Nausea,1,2026-02-13,2026-02-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-20
+1009,Nausea,1,2026-02-24,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1009,Rash maculo-papular,4,2026-02-13,2026-02-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1011,Diarrhea,2,2026-04-15,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1012,Rash maculo-papular,4,2026-04-19,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1012,Rash maculo-papular,1,2026-02-25,2026-02-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1012,Stomatitis,2,2026M03,2026-03-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1012,Stomatitis,1,2026-03-23,2026-04-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1012,Rash maculo-papular,2,2026-02-25,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1013,Rash maculo-papular,1,2026-05-01,2026-05-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-02
+1013,Rash maculo-papular,2,2026-02-25,2026-03-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-02
+1014,Rash maculo-papular,3,2026-03-14,2026-03-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1015,Nausea,2,2026-03-23,2026-03-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-29
+1015,Stomatitis,2,2026-02-23,2026-03-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-29
+1016,Rash maculo-papular,4,2026M02,2026-02-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-11
+1016,Diarrhea,2,2026-02-02,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-11
+1016,Fatigue,2,2026-02-21,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-11
+1016,Nausea,4,2026-04-06,2026-04-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-11
+1016,Diarrhea,2,2026-02-14,2026-02-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-11
+1016,Fatigue,2,2026-04-20,2026-04-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-11
+1017,Nausea,1,2026-01-29,2026-02-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-04
+1018,Nausea,2,2026-05-08,2026-05-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-02
+1018,Stomatitis,3,2026-05-16,2026-05-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-02
+1019,Diarrhea,2,2026-03-04,2026-03-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1019,Diarrhea,1,2026-03-14,2026-03-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1020,Stomatitis,3,2026-01-16,2026-01-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1020,Fatigue,3,2026-03-19,2026-04-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1020,Nausea,4,2026-02-07,2026-02-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1020,Nausea,4,2026-01-15,2026-01-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1020,Diarrhea,3,2026-01-14,2026-01-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1021,Rash maculo-papular,2,2026-03-22,2026-03-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1021,Rash maculo-papular,1,2026-03-09,2026-03-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1021,Fatigue,2,2026-02-20,2026-03-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1021,Diarrhea,1,2026-03-21,2026-04-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1021,Rash maculo-papular,1,2026-02-12,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1021,Stomatitis,1,2025-12-30,2026-01-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1022,Nausea,3,2026-03-13,2026-03-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-12
+1022,Diarrhea,4,2026-02-23,2026-03-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-12
+1023,Stomatitis,3,2026-02-17,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1023,Rash maculo-papular,3,2026-02-20,2026-03-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1023,Rash maculo-papular,1,2026-03-14,2026-03-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1023,Diarrhea,4,2026-03-13,2026-03-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1023,Nausea,2,2026-01-25,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1024,Stomatitis,3,2026-03-20,2026-03-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-04
+1025,Rash maculo-papular,4,2026-01-18,2026-01-31,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1025,Rash maculo-papular,4,2026-02-21,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1025,Nausea,2,2025-12-30,2026-01-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1025,Fatigue,1,2026-03-08,2026-03-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1026,Nausea,4,2026-02-21,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1027,Stomatitis,2,2026-05-11,2026-05-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1027,Rash maculo-papular,2,2026-03-22,2026-03-31,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1027,Fatigue,1,2026M03,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1027,Fatigue,2,2026-03-28,2026-04-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1028,Fatigue,2,2026-03-01,2026-03-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1028,Nausea,1,2026-03-24,2026-04-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1028,Fatigue,1,2026-01-17,2026-01-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1028,Fatigue,2,2026-01-30,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1028,Nausea,2,2026M02,2026-02-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1029,Fatigue,5,2026-03-13,2026-03-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1029,Stomatitis,1,2026-02-28,2026-03-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1029,Nausea,4,2026-02-15,2026-02-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1029,Rash maculo-papular,2,2026-01-31,2026-02-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1029,Stomatitis,1,2026-02-03,2026-02-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1030,Fatigue,2,2026M03,2026-03-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1030,Fatigue,5,2026-03-27,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1030,Nausea,4,2026-02-26,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1030,Diarrhea,2,2026-04-19,2026-04-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1030,Fatigue,4,2026-02-24,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1031,Rash maculo-papular,1,2026-03-04,2026-03-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1031,Diarrhea,3,2026-04-02,2026-04-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1031,Stomatitis,2,2026-02-18,2026-02-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1031,Stomatitis,2,2026-04-09,2026-04-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1032,Rash maculo-papular,4,2026M02,2026-03-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1032,Fatigue,4,2026-02-26,2026-03-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1032,Rash maculo-papular,1,2026-03-21,2026-03-31,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1032,Stomatitis,4,2026-02-19,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1032,Diarrhea,1,2026-03-30,2026-04-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1032,Stomatitis,1,2026-03-17,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1033,Diarrhea,4,2026-02-19,2026-02-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-02
+1033,Rash maculo-papular,2,2026-02-17,2026-02-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-02
+1033,Nausea,1,2025-12-24,2026-01-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-02
+1033,Stomatitis,1,2026-01-22,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-02
+1033,Stomatitis,1,2026-03-09,2026-03-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-02
+1034,Rash maculo-papular,1,2026-03-09,2026-03-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-23
+1034,Fatigue,3,2026-04-05,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-23
+1034,Diarrhea,4,2026-04-07,2026-04-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-23
+1034,Rash maculo-papular,3,2026-01-17,2026-01-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-23
+1036,Rash maculo-papular,4,2026-04-27,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1037,Fatigue,3,2026-02-12,2026-02-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1037,Stomatitis,4,2026-04-06,2026-04-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1037,Rash maculo-papular,5,2026-02-12,2026-02-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1037,Stomatitis,4,2026-04-08,2026-04-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1037,Rash maculo-papular,3,2026-02-26,2026-03-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1038,Diarrhea,4,2026-04-22,2026-05-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-15
+1038,Rash maculo-papular,3,2026-03-08,2026-03-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-15
+1038,Diarrhea,3,2026-03-04,2026-03-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-15
+1040,Nausea,4,2026-03-27,2026-04-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1040,Fatigue,4,2026-04-17,2026-04-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1040,Fatigue,2,2026-01-25,2026-01-31,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1041,Nausea,1,2026-03-10,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1042,Diarrhea,3,2026-03-03,2026-03-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1042,Rash maculo-papular,3,2026-03-30,2026-04-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1042,Diarrhea,4,2026-04-09,2026-04-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1042,Diarrhea,4,2026-04-06,2026-04-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1043,Rash maculo-papular,3,2026-03-21,2026-03-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1044,Diarrhea,4,2026-03-21,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1044,Fatigue,1,2026-03-10,2026-03-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1044,Stomatitis,3,2026-01-31,2026-02-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1044,Fatigue,1,2026-03-19,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1044,Stomatitis,4,2026-02-22,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1044,Rash maculo-papular,2,2026-02-03,2026-02-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1045,Diarrhea,2,2026M02,2026-02-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1045,Fatigue,3,2026-01-03,2026-01-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1046,Nausea,2,2026-04-22,2026-05-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-04
+1046,Nausea,1,2026-03-26,2026-04-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-04
+1046,Rash maculo-papular,4,2026-04-01,2026-04-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-04
+1046,Diarrhea,3,2026-04-09,2026-04-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-04
+1046,Fatigue,4,2026M04,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-04
+1046,Rash maculo-papular,3,2026-03-15,2026-03-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-04
+1047,Stomatitis,1,2026-01-27,2026-02-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-03
+1047,Diarrhea,2,2026-03-18,2026-03-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-03
+1048,Nausea,2,2026-05-07,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1048,Rash maculo-papular,2,2026-04-01,2026-04-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1048,Rash maculo-papular,2,2026-03-21,2026-04-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1048,Diarrhea,1,2026-03-21,2026-03-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1048,Rash maculo-papular,5,2026-02-27,2026-03-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1048,Fatigue,1,2026-04-07,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1049,Diarrhea,4,2026-02-15,2026-02-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1049,Fatigue,1,2026-01-22,2026-02-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1050,Rash maculo-papular,1,2026-02-13,2026-02-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1050,Nausea,1,2026-01-27,2026-02-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1050,Rash maculo-papular,1,2026-03-06,2026-03-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1050,Fatigue,2,2026-04-03,2026-04-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1050,Fatigue,4,2026-03-08,2026-03-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1050,Stomatitis,4,2026-04-08,2026-04-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1051,Fatigue,3,2026-02-13,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1051,Rash maculo-papular,4,2026-03-01,2026-03-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1052,Fatigue,2,2026-04-20,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1052,Fatigue,3,2026M03,2026-03-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1052,Diarrhea,2,2026-05-05,2026-05-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1052,Stomatitis,1,2026-02-26,2026-03-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1052,Nausea,2,2026-04-25,2026-05-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1054,Stomatitis,3,2026-01-08,2026-01-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-12
+1054,Stomatitis,4,2026-02-25,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-12
+1055,Fatigue,4,2026-02-15,2026-02-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-13
+1055,Rash maculo-papular,4,2026-03-21,2026-04-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-13
+1056,Fatigue,3,2026-03-04,2026-03-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-12
+1056,Nausea,3,2026-02-24,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-12
+1056,Fatigue,4,2026-02-10,2026-02-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-12
+1056,Rash maculo-papular,2,2026-04-08,2026-04-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-12
+1056,Rash maculo-papular,1,2026-03-31,2026-04-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-12
+1057,Nausea,2,2026-01-11,2026-01-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1057,Rash maculo-papular,3,2026-03-16,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1057,Nausea,4,2026-02-23,2026-03-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1057,Rash maculo-papular,1,2026-01-08,2026-01-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1058,Diarrhea,1,2026M02,2026-02-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-02
+1058,Nausea,3,2026-03-21,2026-04-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-02
+1058,Rash maculo-papular,4,2026-03-15,2026-03-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-02
+1059,Stomatitis,3,2026-02-21,2026-02-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1059,Diarrhea,2,2026-03-20,2026-04-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1059,Rash maculo-papular,1,2026-03-11,2026-03-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1059,Stomatitis,4,2026-04-14,2026-04-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1059,Rash maculo-papular,1,2026-02-24,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1060,Fatigue,2,2026-03-22,2026-04-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1060,Stomatitis,2,2026-03-06,2026-03-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1060,Fatigue,1,2026-02-08,2026-02-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1060,Nausea,1,2026-03-11,2026-03-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1060,Nausea,1,2026-04-07,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1060,Stomatitis,2,2026M03,2026-03-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1061,Stomatitis,2,2026-01-28,2026-02-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1062,Fatigue,3,2026-03-31,2026-04-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-12
+1062,Fatigue,4,2026-01-21,2026-01-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-12
+1062,Stomatitis,4,2026-01-18,2026-01-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-12
+1062,Rash maculo-papular,3,2026M03,2026-03-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-12
+1062,Stomatitis,2,2026M02,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-12
+1062,Rash maculo-papular,2,2026-01-10,2026-01-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-12
+1063,Fatigue,2,2026-01-11,2026-01-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-13
+1063,Nausea,2,2026-01-17,2026-01-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-13
+1063,Fatigue,2,2026-02-09,2026-02-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-13
+1063,Stomatitis,4,2026-02-15,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-13
+1063,Diarrhea,1,2026-01-17,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-13
+1063,Fatigue,3,2026-02-22,2026-02-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-13
+1064,Fatigue,3,2026-05-07,2026-05-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-02
+1064,Stomatitis,1,2026-03-31,2026-04-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-02
+1065,Rash maculo-papular,1,2026-04-09,2026-04-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1065,Stomatitis,2,2026-05-03,2026-05-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1065,Rash maculo-papular,4,2026-05-03,2026-05-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1065,Diarrhea,3,2026-03-25,2026-04-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1066,Diarrhea,2,2026-02-19,2026-02-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1066,Diarrhea,1,2026-04-15,2026-04-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1066,Rash maculo-papular,1,2026-04-06,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1067,Stomatitis,3,2026-03-20,2026-03-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1067,Fatigue,2,2026-01-28,2026-01-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1067,Rash maculo-papular,1,2026-01-27,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1067,Nausea,3,2026-02-16,2026-02-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1067,Nausea,4,2026-02-24,2026-03-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1069,Diarrhea,1,2026-02-11,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-15
+1069,Fatigue,4,2026-04-04,2026-04-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-15
+1069,Nausea,1,2026-04-30,2026-05-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-15
+1069,Fatigue,3,2026-02-08,2026-02-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-15
+1069,Rash maculo-papular,5,2026M05,2026-05-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-15
+1070,Stomatitis,2,2026-04-06,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1070,Diarrhea,3,2026-04-19,2026-04-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1070,Stomatitis,3,2026-02-07,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1070,Fatigue,1,2026-03-22,2026-03-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1070,Rash maculo-papular,1,2026-03-07,2026-03-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1071,Diarrhea,4,2026-01-06,2026-01-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1071,Nausea,1,2026-03-02,2026-03-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1071,Fatigue,1,2026-01-22,2026-01-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1071,Rash maculo-papular,2,2026-01-29,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1071,Nausea,4,2026-03-16,2026-03-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1071,Rash maculo-papular,3,2026-02-09,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1072,Rash maculo-papular,3,2026-04-25,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-10
+1072,Stomatitis,4,2026M04,2026-04-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-10
+1072,Rash maculo-papular,3,2026-04-07,2026-04-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-10
+1072,Nausea,4,2026-04-06,2026-04-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-10
+1072,Diarrhea,3,2026-02-09,2026-02-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-10
+1072,Nausea,1,2026-04-11,2026-04-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-10
+1073,Fatigue,1,2026-02-12,2026-02-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1073,Stomatitis,3,2026-01-31,2026-02-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1073,Diarrhea,4,2026-01-01,2026-01-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1073,Rash maculo-papular,1,2026-03-25,2026-03-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1073,Nausea,1,2026-01-18,2026-01-31,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1073,Nausea,3,2026-03-19,2026-03-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1074,Stomatitis,3,2026-01-25,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1074,Stomatitis,3,2026-02-19,2026-02-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1074,Diarrhea,2,2026-01-22,2026-01-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1075,Diarrhea,2,2026-04-10,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-09
+1075,Diarrhea,2,2026-04-13,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-09
+1076,Fatigue,4,2026M04,2026-05-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1076,Nausea,4,2026-04-25,2026-05-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1076,Nausea,3,2026-03-08,2026-03-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1076,Stomatitis,1,2026-02-24,2026-02-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1076,Rash maculo-papular,4,2026-02-23,2026-03-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1076,Rash maculo-papular,1,2026-04-18,2026-04-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1078,Nausea,2,2026-02-08,2026-02-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-12
+1078,Nausea,1,2026-04-21,2026-05-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-12
+1078,Rash maculo-papular,3,2026-02-24,2026-03-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-12
+1078,Stomatitis,2,2026-02-08,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-12
+1078,Nausea,3,2026-03-13,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-12
+1079,Nausea,3,2026-02-24,2026-03-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1080,Stomatitis,4,2026-03-29,2026-04-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1080,Nausea,4,2026-04-27,2026-05-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1080,Stomatitis,3,2026-02-24,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1081,Stomatitis,1,2026-02-05,2026-02-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-11
+1081,Stomatitis,2,2026M03,2026-03-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-11
+1082,Diarrhea,3,2026-02-17,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1082,Nausea,1,2026-01-09,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1082,Nausea,1,2026-03-08,2026-03-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1082,Fatigue,3,2026-02-16,2026-02-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1082,Fatigue,1,2026-01-24,2026-01-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1082,Nausea,4,2025-12-26,2025-12-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1083,Stomatitis,5,2026-02-02,2026-02-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1083,Nausea,4,2026-02-20,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1083,Fatigue,2,2026-03-28,2026-03-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1083,Nausea,1,2026-04-11,2026-04-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1083,Rash maculo-papular,4,2026-03-15,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1083,Diarrhea,2,2026-01-29,2026-02-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1084,Diarrhea,2,2026-02-26,2026-03-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1084,Nausea,3,2026-03-22,2026-03-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1085,Stomatitis,2,2026-02-17,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1085,Diarrhea,4,2026-02-28,2026-03-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1085,Nausea,1,2026-02-05,2026-02-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1085,Stomatitis,4,2026-02-13,2026-02-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1086,Nausea,4,2026-02-20,2026-02-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1087,Diarrhea,1,2026-04-25,2026-04-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1087,Diarrhea,4,2026-03-17,2026-03-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1087,Stomatitis,3,2026-02-25,2026-03-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1087,Fatigue,2,2026-03-01,2026-03-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1087,Fatigue,1,2026-03-17,2026-03-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1087,Rash maculo-papular,1,2026-03-02,2026-03-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1088,Stomatitis,1,2026-04-06,2026-04-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1088,Diarrhea,2,2026-05-17,2026-05-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1089,Rash maculo-papular,2,2026-02-27,2026-03-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-08
+1089,Fatigue,2,2026-03-01,2026-03-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-08
+1089,Fatigue,2,2026-02-21,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-08
+1089,Fatigue,3,2026-03-21,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-08
+1090,Stomatitis,1,2026-03-04,2026-03-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-29
+1090,Diarrhea,2,2026-04-04,2026-04-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-29
+1091,Nausea,4,2026-03-30,2026-04-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1091,Diarrhea,2,2026-05-05,2026-05-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1091,Stomatitis,1,2026-02-15,2026-02-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1091,Nausea,1,2026-04-02,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1093,Stomatitis,2,2026-03-30,2026-04-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1093,Fatigue,3,2026-03-23,2026-04-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1093,Rash maculo-papular,5,2026-01-26,2026-01-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1093,Diarrhea,3,2026-03-11,2026-03-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1093,Nausea,4,2026-02-04,2026-02-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1093,Fatigue,2,2026-04-05,2026-04-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1094,Fatigue,4,2026-03-12,2026-03-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1094,Fatigue,1,2026-03-06,2026-03-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1094,Rash maculo-papular,2,2026-05-01,2026-05-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1095,Nausea,1,2026-04-11,2026-04-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1095,Diarrhea,2,2026-03-21,2026-03-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1095,Nausea,1,2026-04-17,2026-04-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1095,Diarrhea,2,2026-04-05,2026-04-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1095,Nausea,4,2026-02-18,2026-03-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1095,Rash maculo-papular,5,2026-04-06,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1096,Fatigue,3,2026-04-16,2026-04-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-04
+1096,Fatigue,2,2026-03-06,2026-03-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-04
+1096,Fatigue,2,2026-03-15,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-04
+1096,Nausea,4,2026-03-15,2026-03-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-04
+1096,Stomatitis,1,2026M02,2026-02-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-04
+1097,Nausea,4,2026-03-12,2026-03-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1097,Fatigue,4,2026-03-24,2026-04-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1097,Nausea,2,2026-01-09,2026-01-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1097,Fatigue,2,2026-01-04,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1098,Fatigue,4,2026-02-20,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1098,Nausea,4,2026-02-21,2026-03-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1098,Stomatitis,3,2026-02-14,2026-02-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1098,Stomatitis,1,2026-04-05,2026-04-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1098,Stomatitis,1,2026-02-11,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1099,Diarrhea,4,2026-03-29,2026-04-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1099,Nausea,2,2026-03-09,2026-03-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1099,Nausea,1,2026-05-18,2026-05-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1099,Rash maculo-papular,3,2026-04-27,2026-05-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1099,Stomatitis,4,2026-03-20,2026-04-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1100,Fatigue,2,2026M03,2026-03-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1100,Fatigue,2,2026-03-21,2026-04-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1101,Stomatitis,2,2026-04-17,2026-04-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-10
+1101,Rash maculo-papular,1,2026-02-28,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-10
+1101,Nausea,3,2026-03-21,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-10
+1101,Rash maculo-papular,3,2026-03-02,2026-03-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-10
+1101,Fatigue,3,2026-04-03,2026-04-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-10
+1102,Fatigue,4,2026-04-14,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1102,Rash maculo-papular,2,2026-03-07,2026-03-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1103,Diarrhea,2,2026-04-23,2026-05-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1103,Fatigue,4,2026-03-05,2026-03-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1103,Diarrhea,3,2026-04-19,2026-04-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1104,Diarrhea,3,2026-03-05,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-08
+1104,Fatigue,2,2026-04-17,2026-04-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-08
+1104,Stomatitis,4,2026-04-12,2026-04-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-08
+1104,Diarrhea,2,2026-03-08,2026-03-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-08
+1104,Rash maculo-papular,4,2026-03-06,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-08
+1105,Diarrhea,1,2026-02-19,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1105,Nausea,1,2026-02-18,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1106,Fatigue,4,2026-04-29,2026-05-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-23
+1106,Nausea,4,2026-02-13,2026-02-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-23
+1107,Fatigue,3,2026-02-25,2026-02-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1107,Fatigue,2,2026-04-09,2026-04-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1107,Rash maculo-papular,3,2026-04-29,2026-05-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1107,Rash maculo-papular,3,2026-03-23,2026-03-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1107,Nausea,2,2026-04-27,2026-05-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1108,Rash maculo-papular,2,2026-04-21,2026-05-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1108,Nausea,1,2026-04-07,2026-04-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1108,Rash maculo-papular,1,2026-05-03,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1109,Nausea,4,2026-04-30,2026-05-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1109,Rash maculo-papular,3,2026-02-23,2026-02-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1110,Stomatitis,5,2026-03-12,2026-03-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1110,Nausea,5,2026-04-11,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1111,Rash maculo-papular,4,2026-04-01,2026-04-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-08
+1111,Nausea,2,2026-03-01,2026-03-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-08
+1112,Fatigue,1,2026-03-06,2026-03-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1112,Rash maculo-papular,3,2026-04-25,2026-04-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1113,Diarrhea,2,2026-02-14,2026-02-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-20
+1113,Rash maculo-papular,4,2026-02-13,2026-02-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-20
+1113,Nausea,2,2026-02-26,2026-03-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-20
+1113,Nausea,3,2026-04-01,2026-04-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-20
+1113,Diarrhea,4,2026-01-17,2026-01-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-20
+1113,Fatigue,1,2026-03-12,2026-03-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-20
+1114,Nausea,1,2026M04,2026-04-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-14
+1114,Nausea,2,2026-04-03,2026-04-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-14
+1114,Nausea,3,2026-05-02,2026-05-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-14
+1115,Fatigue,4,2026M03,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-14
+1115,Diarrhea,2,2026-04-19,2026-04-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-14
+1115,Stomatitis,2,2026-02-28,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-14
+1115,Nausea,1,2026-04-28,2026-05-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-14
+1115,Nausea,2,2026-03-28,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-14
+1116,Rash maculo-papular,1,2026-02-24,2026-03-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-15
+1116,Nausea,1,2026-04-01,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-15
+1116,Nausea,4,2026-03-08,2026-03-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-15
+1116,Nausea,2,2026-05-04,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-15
+1117,Stomatitis,4,2026-03-14,2026-03-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1117,Diarrhea,2,2026M01,2026-02-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1117,Rash maculo-papular,1,2026-03-10,2026-03-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1117,Nausea,3,2026-02-24,2026-03-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1117,Rash maculo-papular,4,2026-01-29,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1117,Diarrhea,4,2026-01-11,2026-01-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1118,Diarrhea,3,2026-02-25,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1118,Fatigue,1,2026-01-18,2026-01-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1118,Diarrhea,2,2026-02-25,2026-03-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1118,Fatigue,2,2026-01-15,2026-01-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1119,Fatigue,1,2026-03-24,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1119,Nausea,3,2026-01-26,2026-01-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1119,Nausea,2,2026-02-18,2026-02-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1119,Diarrhea,2,2026-02-21,2026-02-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1119,Fatigue,2,2026-03-05,2026-03-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1120,Diarrhea,2,2026-03-13,2026-03-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1120,Rash maculo-papular,1,2026-04-14,2026-04-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1120,Stomatitis,3,2026-02-24,2026-03-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1120,Fatigue,2,2026-03-14,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1120,Diarrhea,2,2026-02-04,2026-02-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1121,Diarrhea,1,2026-04-08,2026-04-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-02
+1121,Stomatitis,3,2026-05-01,2026-05-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-02
+1122,Stomatitis,4,2026-01-08,2026-01-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-03
+1122,Nausea,3,2026-01-15,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-03
+1122,Fatigue,3,2026-01-26,2026-02-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-03
+1122,Nausea,1,2026-03-09,2026-03-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-03
+1123,Fatigue,1,2026-03-19,2026-03-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-20
+1124,Diarrhea,1,2026-03-06,2026-03-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1124,Stomatitis,2,2026-03-14,2026-03-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1124,Nausea,3,2026-02-28,2026-03-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1124,Fatigue,5,2026-02-23,2026-02-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1125,Diarrhea,2,2026-02-21,2026-02-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-23
+1125,Rash maculo-papular,4,2026-01-22,2026-02-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-23
+1126,Diarrhea,2,2026-02-12,2026-02-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1126,Rash maculo-papular,3,2026-02-27,2026-03-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1126,Fatigue,4,2026-03-15,2026-03-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1126,Stomatitis,4,2026-01-11,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1126,Nausea,3,2026-01-19,2026-01-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1126,Diarrhea,2,2026-02-28,2026-03-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1127,Nausea,3,2026-04-21,2026-05-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1127,Stomatitis,2,2026-04-20,2026-04-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1127,Nausea,1,2026-04-29,2026-05-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1128,Stomatitis,4,2026-04-15,2026-04-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1128,Fatigue,4,2026-03-05,2026-03-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1128,Diarrhea,4,2026-02-19,2026-02-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1128,Stomatitis,1,2026M03,2026-04-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1130,Nausea,2,2026-02-13,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1130,Nausea,3,2025-12-29,2026-01-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1130,Stomatitis,1,2026-03-22,2026-03-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1130,Nausea,5,2026-01-03,2026-01-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1130,Rash maculo-papular,1,2026-03-06,2026-03-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1130,Fatigue,1,2026M01,2026-01-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1131,Rash maculo-papular,3,2026-03-04,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1131,Fatigue,4,2026M02,2026-03-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1131,Stomatitis,2,2026-01-17,2026-01-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1131,Rash maculo-papular,3,2026M02,2026-02-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1131,Rash maculo-papular,1,2026-03-31,2026-04-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1131,Diarrhea,3,2026-04-09,2026-04-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1132,Diarrhea,1,2026-01-14,2026-01-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1132,Nausea,4,2026-03-13,2026-03-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1132,Nausea,2,2026-03-16,2026-03-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1133,Rash maculo-papular,2,2025-12-29,2026-01-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1133,Fatigue,2,2026-01-08,2026-01-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1133,Fatigue,4,2026-03-16,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1133,Rash maculo-papular,2,2026-03-16,2026-03-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1134,Nausea,3,2026-01-01,2026-01-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1134,Diarrhea,3,2026-02-14,2026-02-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1134,Diarrhea,3,2026-01-28,2026-02-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1134,Rash maculo-papular,4,2026-03-27,2026-04-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1134,Rash maculo-papular,1,2026-03-13,2026-03-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1134,Rash maculo-papular,4,2026-02-19,2026-02-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1135,Fatigue,3,2026-03-21,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1135,Diarrhea,4,2026-03-16,2026-03-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1135,Rash maculo-papular,1,2026-03-25,2026-04-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1136,Diarrhea,1,2026-04-28,2026-05-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1136,Rash maculo-papular,1,2026M03,2026-03-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1136,Diarrhea,2,2026-04-10,2026-04-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1136,Stomatitis,3,2026-03-29,2026-04-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1136,Fatigue,2,2026-04-03,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1136,Stomatitis,1,2026-02-15,2026-02-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1137,Stomatitis,3,2026-01-22,2026-01-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1137,Fatigue,4,2026-01-16,2026-01-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1138,Rash maculo-papular,2,2026-02-19,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1138,Fatigue,4,2026-02-08,2026-02-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1138,Fatigue,2,2026-01-21,2026-01-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1138,Stomatitis,3,2026-03-18,2026-03-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1138,Fatigue,1,2026-02-16,2026-02-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1139,Stomatitis,2,2026M02,2026-02-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1140,Nausea,1,2026-04-01,2026-04-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1140,Stomatitis,1,2026-04-08,2026-04-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1141,Fatigue,4,2026-04-13,2026-04-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1141,Rash maculo-papular,3,2026-03-21,2026-03-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1141,Rash maculo-papular,3,2026M03,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1141,Diarrhea,2,2026-04-19,2026-04-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1142,Fatigue,3,2026-03-29,2026-04-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-19
+1142,Fatigue,2,2026-03-07,2026-03-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-19
+1142,Stomatitis,2,2026-04-05,2026-04-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-19
+1142,Rash maculo-papular,4,2026-03-17,2026-03-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-19
+1143,Nausea,1,2026-02-05,2026-02-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-10
+1144,Rash maculo-papular,1,2026-01-22,2026-02-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1144,Nausea,3,2026-03-01,2026-03-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1144,Fatigue,3,2026-03-14,2026-03-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1144,Fatigue,4,2026-01-18,2026-01-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1144,Stomatitis,5,2026-03-03,2026-03-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1145,Nausea,2,2026-01-11,2026-01-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1145,Fatigue,1,2026-02-04,2026-02-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1145,Fatigue,2,2026-02-09,2026-02-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1145,Rash maculo-papular,3,2026-01-01,2026-01-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1145,Stomatitis,4,2026-02-24,2026-02-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1145,Fatigue,5,2026-01-22,2026-02-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1146,Nausea,4,2026-04-07,2026-04-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1146,Rash maculo-papular,2,2026-02-15,2026-02-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1146,Stomatitis,1,2026-03-30,2026-04-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1147,Fatigue,1,2026-03-05,2026-03-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1147,Nausea,1,2026-04-28,2026-05-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1148,Rash maculo-papular,3,2026-02-10,2026-02-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-21
+1148,Nausea,4,2026-02-12,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-21
+1148,Stomatitis,3,2026-03-06,2026-03-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-21
+1148,Fatigue,2,2026-03-21,2026-04-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-21
+1149,Fatigue,1,2026-01-06,2026-01-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-10
+1150,Fatigue,2,2026-04-03,2026-04-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1150,Nausea,3,2026-04-16,2026-04-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1150,Stomatitis,2,2026-04-10,2026-04-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1151,Rash maculo-papular,4,2026M01,2026-01-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-08
+1151,Fatigue,4,2026-02-17,2026-02-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-08
+1151,Nausea,2,2026-01-12,2026-01-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-08
+1151,Fatigue,2,2026-03-03,2026-03-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-08
+1151,Stomatitis,1,2026-03-29,2026-04-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-08
+1152,Nausea,2,2026-02-05,2026-02-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1152,Fatigue,1,2026-03-18,2026-03-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1152,Nausea,4,2026-03-06,2026-03-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1152,Fatigue,1,2026-03-02,2026-03-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1152,Diarrhea,1,2026-03-30,2026-04-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1153,Stomatitis,3,2026-05-01,2026-05-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1153,Fatigue,4,2026-04-19,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1153,Diarrhea,4,2026-03-08,2026-03-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1153,Diarrhea,4,2026-04-14,2026-04-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1154,Rash maculo-papular,4,2026-04-29,2026-05-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1154,Stomatitis,1,2026M05,2026-05-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1155,Rash maculo-papular,2,2026-03-16,2026-03-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-19
+1155,Diarrhea,4,2026-02-04,2026-02-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-19
+1156,Diarrhea,1,2026-02-03,2026-02-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1156,Rash maculo-papular,4,2026M01,2026-02-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1157,Nausea,3,2026-04-20,2026-04-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1157,Nausea,5,2026-03-14,2026-03-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1157,Diarrhea,2,2026M04,2026-05-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1157,Nausea,1,2026-03-22,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1159,Nausea,3,2026M03,2026-03-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1159,Rash maculo-papular,3,2026-04-04,2026-04-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1160,Nausea,3,2026-04-05,2026-04-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1160,Rash maculo-papular,2,2026-04-10,2026-04-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1160,Rash maculo-papular,3,2026-02-26,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1160,Stomatitis,1,2026-05-08,2026-05-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-27
+1161,Diarrhea,4,2026-03-31,2026-04-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1161,Stomatitis,4,2026M03,2026-04-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1162,Stomatitis,4,2026-03-09,2026-03-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-02
+1162,Diarrhea,4,2026-04-06,2026-04-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-02
+1162,Diarrhea,2,2026-03-26,2026-03-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-02
+1162,Diarrhea,2,2026-03-29,2026-03-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-02
+1162,Nausea,2,2026-03-15,2026-03-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-02
+1164,Rash maculo-papular,1,2026-03-04,2026-03-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1164,Rash maculo-papular,2,2026-01-16,2026-01-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1164,Stomatitis,2,2026-02-12,2026-02-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1164,Rash maculo-papular,1,2026-03-13,2026-03-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1165,Diarrhea,1,2026-02-20,2026-02-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-02
+1165,Fatigue,2,2026-03-29,2026-04-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-02
+1165,Diarrhea,4,2026-03-31,2026-04-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-02
+1166,Stomatitis,4,2026-05-04,2026-05-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1166,Stomatitis,4,2026-03-03,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1166,Nausea,1,2026-04-26,2026-05-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1166,Stomatitis,2,2026-03-04,2026-03-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1166,Fatigue,1,2026-04-02,2026-04-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1166,Diarrhea,2,2026-02-27,2026-03-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1167,Fatigue,4,2026-01-31,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-21
+1168,Diarrhea,1,2026-03-15,2026-03-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-02
+1168,Rash maculo-papular,4,2026-04-17,2026-04-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-02
+1169,Diarrhea,1,2026-02-17,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1170,Stomatitis,5,2026-02-23,2026-03-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1171,Diarrhea,3,2026-02-20,2026-03-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1171,Rash maculo-papular,2,2026-03-06,2026-03-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1172,Stomatitis,1,2026-04-07,2026-04-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1172,Diarrhea,4,2026-03-02,2026-03-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1172,Rash maculo-papular,4,2026-02-14,2026-02-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1172,Stomatitis,1,2026-02-05,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1172,Nausea,3,2026-03-17,2026-03-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1173,Rash maculo-papular,1,2026-02-28,2026-03-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-29
+1173,Nausea,1,2026-03-20,2026-03-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-29
+1173,Fatigue,2,2026-02-28,2026-03-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-29
+1173,Fatigue,1,2026-04-02,2026-04-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-29
+1173,Stomatitis,2,2026-02-20,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-29
+1174,Stomatitis,1,2026-01-27,2026-02-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1174,Nausea,3,2026-01-05,2026-01-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1174,Stomatitis,3,2026-03-27,2026-03-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1174,Stomatitis,2,2026-01-06,2026-01-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1175,Diarrhea,3,2026-03-23,2026-04-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1175,Rash maculo-papular,3,2026-03-03,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1175,Stomatitis,3,2026-03-04,2026-03-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1175,Rash maculo-papular,2,2026-04-17,2026-04-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1175,Rash maculo-papular,3,2026-02-07,2026-02-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1176,Fatigue,4,2026-04-02,2026-04-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-11
+1176,Diarrhea,2,2026-03-04,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-11
+1177,Rash maculo-papular,1,2026-02-20,2026-02-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1177,Stomatitis,2,2026-03-10,2026-03-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1177,Nausea,2,2026-05-02,2026-05-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1177,Rash maculo-papular,2,2026-02-21,2026-03-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1178,Rash maculo-papular,2,2026-03-30,2026-04-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1178,Rash maculo-papular,2,2026-02-26,2026-03-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1179,Rash maculo-papular,1,2026M04,2026-04-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1179,Stomatitis,1,2026-02-13,2026-02-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1182,Fatigue,3,2026-02-12,2026-02-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1182,Fatigue,1,2026-04-01,2026-04-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1182,Rash maculo-papular,1,2026-02-23,2026-03-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1183,Rash maculo-papular,3,2026-04-06,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1183,Rash maculo-papular,3,2026-02-25,2026-03-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1183,Fatigue,2,2026-02-11,2026-02-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1183,Nausea,4,2026-04-21,2026-04-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1184,Stomatitis,4,2026M03,2026-03-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1184,Diarrhea,1,2026-01-12,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1184,Nausea,3,2026-03-17,2026-03-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1184,Fatigue,2,2026-03-08,2026-03-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1184,Fatigue,3,2026-01-26,2026-01-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1184,Diarrhea,1,2026-03-04,2026-03-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-22
+1185,Diarrhea,4,2026-04-13,2026-04-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1185,Diarrhea,4,2026-02-19,2026-03-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1186,Fatigue,2,2026-01-27,2026-01-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1187,Stomatitis,3,2026-05-05,2026-05-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1187,Fatigue,2,2026-04-16,2026-04-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1187,Nausea,1,2026-05-11,2026-05-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1187,Diarrhea,2,2026-03-01,2026-03-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1187,Nausea,1,2026-05-07,2026-05-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1187,Nausea,2,2026-03-07,2026-03-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1188,Fatigue,1,2026-01-13,2026-01-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-16
+1188,Fatigue,3,2026-03-26,2026-04-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-16
+1189,Rash maculo-papular,1,2026-05-01,2026-05-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1189,Diarrhea,2,2026-02-25,2026-03-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1190,Diarrhea,4,2026-03-29,2026-04-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-20
+1190,Nausea,4,2026-04-07,2026-04-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-20
+1191,Nausea,3,2026M03,2026-03-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1192,Stomatitis,2,2026-05-14,2026-05-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1193,Diarrhea,1,2026-04-03,2026-04-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1194,Rash maculo-papular,2,2026-04-24,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1194,Rash maculo-papular,4,2026M02,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1194,Fatigue,3,2026-03-03,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1194,Stomatitis,2,2026-04-01,2026-04-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1194,Rash maculo-papular,4,2026-01-27,2026-02-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1194,Fatigue,4,2026-04-24,2026-05-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1195,Fatigue,4,2026-03-11,2026-03-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1195,Fatigue,4,2026-03-02,2026-03-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1195,Nausea,4,2026-01-25,2026-02-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1195,Fatigue,4,2025-12-29,2026-01-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1195,Diarrhea,2,2026-01-27,2026-01-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1195,Diarrhea,1,2026-01-11,2026-01-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1196,Stomatitis,1,2026-02-07,2026-02-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-15
+1196,Diarrhea,3,2026M04,2026-05-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-15
+1196,Nausea,1,2026-02-22,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-15
+1197,Stomatitis,1,2026-04-13,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1197,Nausea,4,2026-03-22,2026-03-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1197,Rash maculo-papular,1,2026-03-09,2026-03-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1197,Diarrhea,4,2026-01-26,2026-02-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1198,Stomatitis,3,2026-04-14,2026-04-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1198,Rash maculo-papular,3,2026-03-25,2026-03-31,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1198,Diarrhea,2,2026-03-03,2026-03-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1198,Fatigue,2,2026-04-12,2026-04-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1198,Stomatitis,4,2026-02-26,2026-03-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1198,Diarrhea,5,2026-03-15,2026-03-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-24
+1199,Rash maculo-papular,2,2026M05,2026-05-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1199,Nausea,4,2026-05-08,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1199,Fatigue,2,2026-03-27,2026-04-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1199,Diarrhea,3,2026-03-09,2026-03-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1200,Nausea,1,2026-02-21,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-12
+1200,Diarrhea,4,2026-01-17,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-12
+1200,Rash maculo-papular,2,2026-03-15,2026-03-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-12
+1200,Stomatitis,2,2026-01-06,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-12
+1201,Fatigue,1,2026-03-24,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1201,Rash maculo-papular,3,2026-03-31,2026-04-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1201,Nausea,3,2026-03-13,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1201,Stomatitis,3,2026-04-08,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1201,Stomatitis,3,2026-02-14,2026-02-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1201,Fatigue,1,2026-04-08,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1202,Fatigue,3,2026-04-17,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1203,Rash maculo-papular,4,2026-02-07,2026-02-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-21
+1204,Nausea,3,2026-03-04,2026-03-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-19
+1204,Rash maculo-papular,3,2026M03,2026-03-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-19
+1204,Stomatitis,4,2026-02-18,2026-02-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-19
+1204,Stomatitis,3,2026-04-04,2026-04-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-19
+1204,Nausea,2,2026M03,2026-04-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-19
+1204,Rash maculo-papular,2,2026M03,2026-03-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-19
+1206,Fatigue,4,2026-03-26,2026-03-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1206,Nausea,3,2026-01-30,2026-02-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1206,Diarrhea,3,2026-02-09,2026-02-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1207,Stomatitis,4,2026M03,2026-03-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1207,Nausea,1,2026-03-19,2026-03-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1208,Diarrhea,3,2026M02,2026-03-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1208,Stomatitis,3,2026-02-26,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1208,Diarrhea,2,2026-01-17,2026-01-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1208,Nausea,3,2026-03-03,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-11
+1209,Rash maculo-papular,2,2026-04-01,2026-04-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-13
+1209,Stomatitis,4,2026-02-26,2026-03-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-13
+1209,Nausea,2,2026-01-09,2026-01-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-13
+1210,Rash maculo-papular,4,2026M02,2026-02-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1210,Fatigue,3,2026-02-10,2026-02-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1210,Nausea,2,2026-02-02,2026-02-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1211,Diarrhea,4,2026-03-18,2026-03-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1211,Nausea,1,2026-03-20,2026-03-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1211,Diarrhea,4,2026-04-24,2026-04-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1211,Nausea,4,2026-02-10,2026-02-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1212,Stomatitis,3,2026M02,2026-02-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1212,Nausea,3,2026M03,2026-03-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1212,Diarrhea,3,2026-04-02,2026-04-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1212,Stomatitis,4,2026-02-12,2026-02-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1212,Nausea,1,2026-03-31,2026-04-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1212,Nausea,4,2026-02-12,2026-02-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1213,Nausea,1,2026-01-28,2026-02-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1213,Diarrhea,4,2026-02-18,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1213,Stomatitis,3,2026-02-19,2026-03-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1213,Diarrhea,4,2026M02,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1213,Nausea,4,2026-03-15,2026-03-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1213,Stomatitis,3,2026M04,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1214,Fatigue,1,2026M02,2026-02-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-14
+1214,Rash maculo-papular,1,2026-04-30,2026-05-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-14
+1214,Nausea,1,2026-04-18,2026-04-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-14
+1215,Nausea,3,2026-02-06,2026-02-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1215,Stomatitis,1,2026-01-29,2026-02-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1216,Stomatitis,3,2026-02-08,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1216,Diarrhea,4,2026-04-02,2026-04-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1216,Diarrhea,3,2026-02-13,2026-02-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-18
+1217,Stomatitis,4,2026-01-12,2026-01-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1217,Rash maculo-papular,2,2026-01-26,2026-02-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1217,Rash maculo-papular,4,2026-01-31,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1217,Nausea,2,2026-01-18,2026-01-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1217,Diarrhea,3,2026-01-31,2026-02-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1217,Nausea,3,2026-01-03,2026-01-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1219,Rash maculo-papular,2,2026-03-08,2026-03-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-23
+1219,Nausea,2,2026-02-21,2026-02-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-23
+1219,Stomatitis,3,2026-01-23,2026-01-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-23
+1221,Diarrhea,2,2026M04,2026-04-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1221,Rash maculo-papular,4,2026-03-25,2026-04-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1221,Diarrhea,4,2026-04-11,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1221,Rash maculo-papular,3,2026-04-13,2026-04-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1222,Nausea,1,2026M02,2026-02-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1223,Fatigue,4,2026-02-11,2026-02-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1223,Rash maculo-papular,3,2026-04-07,2026-04-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1223,Stomatitis,1,2026-03-07,2026-03-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1224,Fatigue,1,2026M03,2026-03-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1224,Rash maculo-papular,1,2026-03-06,2026-03-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1224,Stomatitis,2,2026-03-17,2026-03-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1224,Fatigue,3,2026-03-06,2026-03-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-30
+1225,Nausea,1,2026-05-03,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1225,Fatigue,1,2026-05-12,2026-05-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1225,Fatigue,2,2026-02-19,2026-03-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1225,Nausea,4,2026-02-26,2026-02-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1225,Fatigue,4,2026-03-27,2026-03-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1226,Fatigue,2,2026-03-15,2026-03-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-06
+1226,Diarrhea,1,2026-02-26,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-06
+1227,Nausea,3,2026-03-11,2026-03-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1229,Fatigue,4,2026-02-12,2026-02-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1229,Stomatitis,4,2026-02-11,2026-02-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1229,Stomatitis,3,2026M03,2026-03-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1229,Rash maculo-papular,1,2026-01-02,2026-01-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1229,Diarrhea,5,2026-01-22,2026-02-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1229,Diarrhea,2,2026-02-16,2026-03-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1230,Diarrhea,2,2026M02,2026-02-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1230,Rash maculo-papular,3,2026-03-03,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1231,Rash maculo-papular,1,2026-02-19,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-09
+1231,Stomatitis,2,2026-04-26,2026-05-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-09
+1231,Nausea,1,2026-03-19,2026-03-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-09
+1231,Stomatitis,5,2026-04-19,2026-04-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-09
+1231,Fatigue,2,2026-02-19,2026-03-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-09
+1232,Stomatitis,2,2026-01-31,2026-02-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1232,Rash maculo-papular,3,2026-03-09,2026-03-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1232,Rash maculo-papular,2,2026-03-26,2026-04-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1232,Diarrhea,2,2026-01-03,2026-01-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1232,Rash maculo-papular,4,2026-02-02,2026-02-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1232,Stomatitis,3,2026-03-15,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-09
+1233,Rash maculo-papular,4,2026-03-01,2026-03-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1233,Diarrhea,1,2026-05-06,2026-05-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1233,Stomatitis,2,2026-05-08,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1233,Rash maculo-papular,2,2026-02-25,2026-02-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-18
+1234,Diarrhea,4,2026-02-08,2026-02-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1234,Fatigue,1,2026-02-08,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1234,Nausea,2,2026-02-19,2026-02-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1234,Nausea,3,2026-05-04,2026-05-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1234,Rash maculo-papular,2,2026M03,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1234,Stomatitis,4,2026-03-04,2026-03-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1235,Fatigue,4,2026-04-08,2026-04-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1235,Fatigue,4,2026-02-27,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1235,Diarrhea,3,2026-02-19,2026-02-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1235,Rash maculo-papular,3,2026-02-05,2026-02-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1235,Nausea,1,2026M03,2026-03-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1235,Rash maculo-papular,3,2026-03-06,2026-03-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1236,Nausea,4,2026-03-19,2026-03-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1236,Fatigue,3,2026-03-27,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1236,Diarrhea,5,2026M01,2026-02-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1236,Stomatitis,1,2026-01-28,2026-01-31,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1236,Stomatitis,3,2026-04-04,2026-04-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-01
+1237,Nausea,4,2026-03-22,2026-03-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1237,Diarrhea,3,2026-02-26,2026-03-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1237,Diarrhea,1,2026-02-25,2026-03-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1237,Rash maculo-papular,4,2026-03-24,2026-03-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1237,Fatigue,3,2026-01-29,2026-02-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1237,Diarrhea,4,2026-03-19,2026-03-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1238,Rash maculo-papular,3,2026-02-14,2026-02-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1238,Diarrhea,3,2026-04-08,2026-04-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1238,Fatigue,4,2026-03-09,2026-03-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1238,Fatigue,3,2026-05-06,2026-05-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1239,Rash maculo-papular,2,2026-02-22,2026-03-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1239,Diarrhea,4,2026-04-26,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1239,Rash maculo-papular,4,2026-03-11,2026-03-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1239,Nausea,4,2026-03-31,2026-04-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1240,Rash maculo-papular,3,2026-05-03,2026-05-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-28
+1240,Stomatitis,1,2026M03,2026-03-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-28
+1240,Fatigue,4,2026-03-23,2026-03-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-28
+1240,Nausea,3,2026-02-22,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-28
+1241,Diarrhea,2,2026-03-15,2026-03-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-12
+1242,Rash maculo-papular,2,2026M02,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1242,Fatigue,1,2026-03-06,2026-03-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1242,Nausea,4,2026-04-22,2026-04-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1242,Nausea,2,2026-02-24,2026-02-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1242,Diarrhea,4,2026-02-12,2026-02-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1242,Diarrhea,1,2026-03-26,2026-03-31,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-13
+1244,Fatigue,3,2026-02-15,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1244,Stomatitis,2,2026-04-25,2026-04-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1244,Stomatitis,4,2026-03-06,2026-03-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1244,Rash maculo-papular,2,2026-02-23,2026-02-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1245,Rash maculo-papular,4,2026-02-01,2026-02-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1245,Diarrhea,4,2026M02,2026-02-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1245,Stomatitis,2,2026-01-02,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1245,Nausea,4,2026-03-28,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1245,Stomatitis,2,2026-01-02,2026-01-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1245,Rash maculo-papular,2,2026-02-24,2026-03-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1246,Diarrhea,2,2026-01-19,2026-01-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1246,Nausea,4,2026-02-05,2026-02-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1247,Diarrhea,1,2026-03-15,2026-03-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-06
+1248,Diarrhea,4,2026-02-28,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1248,Diarrhea,3,2025-12-29,2026-01-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1248,Fatigue,1,2026-03-07,2026-03-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1248,Stomatitis,4,2026-03-12,2026-03-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1249,Nausea,4,2026-03-14,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1249,Fatigue,4,2026-04-01,2026-04-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1249,Stomatitis,4,2026-03-16,2026-03-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1249,Nausea,4,2026-02-23,2026-02-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1249,Stomatitis,1,2026-03-09,2026-03-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1249,Nausea,3,2026-02-24,2026-03-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1250,Fatigue,3,2026-04-28,2026-05-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1250,Stomatitis,3,2026-03-23,2026-03-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-21
+1251,Rash maculo-papular,4,2026-04-16,2026-04-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1251,Diarrhea,2,2026-02-28,2026-03-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1251,Fatigue,2,2026-02-07,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1252,Stomatitis,3,2026-03-16,2026-03-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-23
+1252,Fatigue,3,2026-04-26,2026-05-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-23
+1252,Rash maculo-papular,2,2026-03-18,2026-03-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-23
+1252,Nausea,2,2026-05-09,2026-05-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-23
+1252,Diarrhea,5,2026-03-31,2026-04-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-23
+1252,Nausea,3,2026-03-03,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-23
+1253,Fatigue,3,2026-04-07,2026-04-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1253,Fatigue,4,2026-04-28,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-24
+1254,Fatigue,1,2026-02-05,2026-02-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1254,Stomatitis,2,2026-02-25,2026-03-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1255,Diarrhea,1,2026M03,2026-04-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1255,Nausea,2,2026-02-04,2026-02-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1256,Stomatitis,4,2026-02-04,2026-02-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1256,Rash maculo-papular,4,2026-03-19,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1256,Stomatitis,4,2026-03-05,2026-03-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1256,Diarrhea,1,2026-02-03,2026-02-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1256,Stomatitis,3,2026-04-03,2026-04-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1256,Nausea,1,2026-02-04,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-15
+1258,Nausea,3,2026-05-03,2026-05-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1258,Rash maculo-papular,3,2026-02-12,2026-02-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1258,Diarrhea,2,2026-02-27,2026-03-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1259,Fatigue,1,2026-03-05,2026-03-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-21
+1259,Rash maculo-papular,3,2026-01-19,2026-01-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-21
+1259,Rash maculo-papular,4,2026-03-18,2026-04-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-21
+1261,Rash maculo-papular,3,2026-03-26,2026-03-29,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1261,Fatigue,2,2026-03-31,2026-04-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1261,Nausea,1,2026-05-10,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1261,Nausea,4,2026-02-25,2026-03-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1261,Fatigue,3,2026-04-23,2026-05-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1262,Nausea,4,2026-03-04,2026-03-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-28
+1263,Nausea,1,2026-03-29,2026-04-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-23
+1263,Rash maculo-papular,1,2026-03-18,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-23
+1263,Rash maculo-papular,3,2026-01-30,2026-02-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-23
+1264,Stomatitis,1,2026M02,2026-02-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1264,Rash maculo-papular,3,2026-02-20,2026-02-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1264,Rash maculo-papular,4,2026-02-20,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1264,Nausea,3,2026-03-03,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1265,Rash maculo-papular,1,2026-04-02,2026-04-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-02
+1265,Stomatitis,1,2026-03-27,2026-04-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-02
+1265,Rash maculo-papular,1,2026-04-03,2026-04-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-02
+1265,Rash maculo-papular,4,2026-03-16,2026-03-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-02
+1265,Rash maculo-papular,3,2026-02-07,2026-02-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-02
+1265,Fatigue,3,2026-02-09,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-02
+1266,Nausea,1,2026-04-04,2026-04-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-23
+1266,Diarrhea,3,2026-04-22,2026-04-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-23
+1266,Rash maculo-papular,4,2026-05-09,2026-05-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-23
+1267,Stomatitis,4,2026-03-21,2026-03-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1267,Diarrhea,4,2026-02-05,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1267,Fatigue,1,2026-04-04,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1267,Stomatitis,2,2026-02-10,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-31
+1268,Rash maculo-papular,2,2026-02-21,2026-03-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1268,Rash maculo-papular,3,2026-01-30,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1269,Nausea,1,2026-02-07,2026-02-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1269,Nausea,2,2026-01-09,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1269,Rash maculo-papular,5,2026-03-13,2026-03-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1269,Stomatitis,4,2026-02-07,2026-02-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1269,Stomatitis,1,2026-01-17,2026-01-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1269,Diarrhea,1,2026-01-31,2026-02-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-04
+1270,Stomatitis,1,2026-02-19,2026-03-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1270,Fatigue,2,2026-03-01,2026-03-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1270,Stomatitis,3,2026-04-10,2026-04-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1270,Diarrhea,3,2026-03-06,2026-03-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1270,Rash maculo-papular,4,2026-03-03,2026-03-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-03
+1271,Stomatitis,1,2026-04-22,2026-04-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1271,Stomatitis,3,2026-04-22,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1271,Stomatitis,4,2026-03-25,2026-03-31,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1271,Fatigue,4,2026-04-17,2026-04-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1271,Diarrhea,1,2026-02-26,2026-03-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-06
+1272,Nausea,3,2026-02-08,2026-02-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1272,Rash maculo-papular,1,2026-03-01,2026-03-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1272,Stomatitis,3,2026-04-02,2026-04-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1272,Diarrhea,2,2026-04-11,2026-04-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1272,Diarrhea,1,2026-03-11,2026-03-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1272,Stomatitis,1,2026-04-22,2026-05-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1273,Fatigue,1,2026-04-26,2026-05-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1273,Nausea,1,2026-02-17,2026-02-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1273,Rash maculo-papular,3,2026-04-20,2026-04-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1273,Rash maculo-papular,3,2026-04-22,2026-04-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1273,Fatigue,1,2026-05-05,2026-05-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-22
+1274,Diarrhea,2,2026-02-24,2026-02-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-23
+1274,Rash maculo-papular,1,2026-04-05,2026-04-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-23
+1274,Diarrhea,1,2026-02-14,2026-02-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-23
+1275,Fatigue,4,2026-01-16,2026-01-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1275,Nausea,4,2026-02-14,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1275,Stomatitis,3,2026-02-02,2026-02-09,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-05
+1276,Nausea,1,2026-03-06,2026-03-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1276,Rash maculo-papular,2,2026-03-19,2026-03-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1276,Rash maculo-papular,3,2026-02-23,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1276,Nausea,2,2026-02-03,2026-02-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1276,Nausea,1,2026-02-24,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1277,Rash maculo-papular,1,2026-02-28,2026-03-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1278,Fatigue,4,2026-02-21,2026-02-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1278,Rash maculo-papular,3,2026M05,2026-05-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1278,Stomatitis,3,2026-02-27,2026-03-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1278,Fatigue,4,2026-03-03,2026-03-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1278,Rash maculo-papular,4,2026-03-18,2026-03-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1278,Fatigue,4,2026-04-21,2026-04-30,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-17
+1279,Nausea,4,2026-04-05,2026-04-12,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-10
+1279,Fatigue,3,2026-02-03,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-10
+1280,Diarrhea,1,2026-04-01,2026-04-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1280,Diarrhea,3,2026-05-05,2026-05-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-03
+1281,Nausea,4,2026-03-15,2026-03-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1281,Fatigue,1,2026-02-18,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1281,Nausea,2,2026-03-11,2026-03-21,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1281,Stomatitis,1,2026M04,2026-04-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-26
+1282,Stomatitis,3,2026-02-16,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-16
+1283,Rash maculo-papular,3,2026-03-24,2026-04-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-07
+1284,Stomatitis,2,2026M01,2026-02-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-14
+1284,Diarrhea,5,2026-02-20,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-14
+1284,Fatigue,4,2026M03,2026-04-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-14
+1284,Stomatitis,3,2026-02-10,2026-02-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-14
+1284,Stomatitis,3,2026M01,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-14
+1285,Rash maculo-papular,3,2026-04-10,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-09
+1285,Rash maculo-papular,4,2026-02-23,2026-03-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-09
+1286,Rash maculo-papular,1,2026-01-11,2026-01-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-14
+1286,Fatigue,3,2026-01-29,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-14
+1287,Fatigue,2,2026-02-03,2026-02-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1288,Diarrhea,3,2026-05-10,2026-05-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1288,Fatigue,3,2026-04-14,2026-04-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1288,Rash maculo-papular,1,2026-03-01,2026-03-02,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1288,Diarrhea,4,2026-04-06,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1288,Nausea,4,2026-04-13,2026-04-25,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1288,Diarrhea,1,2026-05-15,2026-05-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-03-01
+1289,Stomatitis,1,2026-04-07,2026-04-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1289,Diarrhea,4,2026-04-04,2026-04-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1289,Nausea,3,2026M03,2026-03-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1289,Stomatitis,4,2026-03-06,2026-03-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1289,Nausea,4,2026-01-30,2026-02-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-25
+1290,Nausea,2,2026-04-15,2026-04-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1290,Rash maculo-papular,2,2026-04-05,2026-04-10,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1290,Fatigue,4,2026-05-05,2026-05-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1290,Nausea,4,2026-03-30,2026-04-01,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-19
+1291,Rash maculo-papular,2,2026-04-22,2026-04-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1291,Stomatitis,2,2026-02-02,2026-02-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1291,Stomatitis,4,2026M03,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1291,Nausea,2,2026M04,2026-04-07,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1291,Diarrhea,2,2026M03,2026-03-20,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-05
+1292,Rash maculo-papular,4,2026-01-19,2026-01-24,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1292,Rash maculo-papular,1,2026M01,2026-01-18,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-07
+1293,Fatigue,4,2026-03-23,2026-03-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1293,Rash maculo-papular,1,2026-04-17,2026-04-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-16
+1294,Diarrhea,4,2026-01-29,2026-02-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1294,Diarrhea,2,2026-03-29,2026-04-08,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1294,Rash maculo-papular,3,2026-01-27,2026-02-05,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1294,Diarrhea,2,2026-02-17,2026-03-03,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1295,Stomatitis,3,2026-03-07,,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-20
+1295,Fatigue,4,2026-01-12,2026-01-23,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-20
+1295,Stomatitis,3,2026-02-17,2026-02-22,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-20
+1295,Stomatitis,4,2026-03-19,2026-03-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-20
+1296,Fatigue,4,2026-01-29,2026-02-06,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1296,Fatigue,4,2026-02-26,2026-03-11,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1296,Stomatitis,1,2026-04-13,2026-04-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1296,Nausea,1,2026-03-07,2026-03-13,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1296,Rash maculo-papular,2,2026-04-09,2026-04-15,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1296,Nausea,4,2026M02,2026-02-26,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
+1297,Diarrhea,4,2026-02-05,2026-02-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1297,Rash maculo-papular,3,2026-04-08,2026-04-19,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1297,Nausea,1,2026-03-29,2026-04-04,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1297,Rash maculo-papular,3,2026-02-06,2026-02-14,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1297,Rash maculo-papular,3,2026-03-14,2026-03-28,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-27
+1298,Nausea,4,2026-04-14,2026-04-27,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-04
+1298,Fatigue,4,2026-04-11,2026-04-16,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-02-04
+1299,Stomatitis,2,2026-02-08,2026-02-17,Stomatitis,Rash maculo-papular,Diarrhea,Fatigue,Nausea,2026-01-26
