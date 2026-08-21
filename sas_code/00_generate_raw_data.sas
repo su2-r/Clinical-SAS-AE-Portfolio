@@ -81,3 +81,14 @@ data raw_ae;
     end;
     drop j num_aes term_idx st_date end_date;
 run;
+
+/* Export synthetic raw data to CSV in raw_data folder */
+proc export data=raw_dm
+    outfile="raw_data/raw_dm.csv"
+    dbms=csv replace;
+run;
+
+proc export data=raw_ae
+    outfile="raw_data/raw_ae.csv"
+    dbms=csv replace;
+run;
