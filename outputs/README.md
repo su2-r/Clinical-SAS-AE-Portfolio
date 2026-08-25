@@ -1,6 +1,6 @@
 # Output Deliverables & Execution Logs
 
-This directory contains generated outputs, execution logs, and validation summary reports produced during data processing and analysis.
+This directory contains generated outputs(SDTM, ADam, TFL), execution logs, and validation summary reports produced during data processing and analysis.
 
 ## Contents
 - **Logs (`.log`):** Execution logs verifying clean SAS runs without errors or unexpected warnings.
