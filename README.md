@@ -4,10 +4,18 @@
 [![SAS Version](https://img.shields.io/badge/SAS-9.4-orange.svg)](#requirements)
 <!-- Add CI / coverage badges here when available -->
 
-## Project Summary
-An end-to-end Clinical SAS programming pipeline for processing, deriving, validating, and reporting Adverse Event (AE) safety data following CDISC standards (SDTM $\rightarrow$ ADaM). This repository includes production SAS code, reusable macros, mapping specifications, QC logs, and submission-ready TFL outputs (`ADAE` / `ADAET`).
+## Executive Overview
+An end-to-end Clinical SAS programming pipeline for processing, deriving, validating, and reporting Adverse Event (AE) and Demographics (DM) safety data following CDISC standards (SDTM $\rightarrow$ ADaM). This repository includes production SAS code, reusable macros, mapping specifications, QC logs, and submission-ready TFL outputs.
 
 **Clinical Trial Context:** Phase 3 trial evaluating **Daraxonrasib (RMC-6236)** in subjects with RAS-mutant Metastatic Pancreatic Ductal Adenocarcinoma (mPDAC).
+
+## CDISC Standards & Technical Specifications
+- **CDISC SDTM Standard:** v1.7 / SDTMIG v3.3
+- **CDISC ADaM Standard:** v2.1 / ADaMIG v1.1
+- **Software Environment:** SAS 9.4 / SAS OnDemand for Academics
+- **Target Domains & Datasets:** 
+  - SDTM: Demographics (`DM`), Adverse Events (`AE`)
+  - ADaM: Subject-Level Analysis Dataset (`ADSL`), Adverse Event Analysis Dataset (`ADAE`)
 
 ## Table of contents
 - [Objectives](#objectives)
