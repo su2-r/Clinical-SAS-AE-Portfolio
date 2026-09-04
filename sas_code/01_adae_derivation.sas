@@ -13,18 +13,17 @@ proc import datafile="../raw_data/raw_ae.csv"
 run;
 
 /* Step 2: Date Conversion & ADaM Derivations */
-data work.adae;
+data adam.adae;
     set work.raw_ae;
 
-    /* Sample first dose date for demonstration (01JUN2026) */
-    TRTSDT = '01JUN2026'd; 
-    format TRTSDT date9.;
+    /* Sample  date format */
+      format TRTSDT date9.;
 
     /* Convert ISO Character Date (AESTDTC) to Numeric SAS Date (AESTDT) */
     if length(AESTDTC) >= 10 then AESTDT = input(AESTDTC, yymmdd10.);
     format AESTDT date9.;
 
     /* Derive Treatment-Emergent Flag (TRTEMFL) */
-    if AESTDT >= TRTSDT or (AESTDT < TRTSDT and AESEV = 'SEVERE') then TRTEMFL = 'Y';
+    if AESTDT >= TRTSDT or (AESTDT < TRTSDT and TOX_GR >= 3) then TRTEMFL = 'Y';
     else TRTEMFL = 'N';
 run;

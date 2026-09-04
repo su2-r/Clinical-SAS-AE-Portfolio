@@ -5,10 +5,10 @@
  *******************************************************************************/
 
 /* Load paths */
-%include "sas_code/config.sas";
+%include "config.sas";
 
-/* 1. Generate Raw Demographics (raw_dm) */
-data raw_dm;
+/* 1. Generate Raw Demographics (raw.demog) */
+data raw.demog;
     length SUBJ $10 SEX $1 ARMCD $10;
     format BRTHDT RANDDT TRTSDT yymmdd10.;
     
@@ -42,14 +42,14 @@ data raw_dm;
 run;
 
 /* 2. Generate Raw Adverse Events (raw_ae) with Edge Cases */
-data raw_ae;
+data raw.ae;
     length SUBJ $10 RAW_TERM $100 TOX_GR 8 AESTDTC AEENDTC $10;
     call streaminit(67890);
     
     /* Array of common mPDAC / RAS-inhibitor AEs */
     array terms [5] $50 ('Stomatitis' 'Rash maculo-papular' 'Diarrhea' 'Fatigue' 'Nausea');
     
-    set raw_dm(keep=SUBJ TRTSDT);
+    set raw.demog(keep=SUBJ TRTSDT);
     where not missing(TRTSDT); /* Dosed subjects only for AE records */
     
     /* Each subject experiences between 1 and 6 AE records */
@@ -83,12 +83,12 @@ data raw_ae;
 run;
 
 /* Export synthetic raw data to CSV in raw_data folder */
-proc export data=raw_dm
-    outfile="raw_data/raw_dm.csv"
+proc export data=raw.demog
+    outfile="&root/raw_data/raw_demog.csv"
     dbms=csv replace;
 run;
 
-proc export data=raw_ae
-    outfile="raw_data/raw_ae.csv"
+proc export data=raw.ae
+    outfile="&root/raw_data/raw_ae.csv"
     dbms=csv replace;
 run;

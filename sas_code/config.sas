@@ -1,4 +1,4 @@
-﻿/* ==================================================================== */
+/* ==================================================================== */
 /* Program: config.sas                                                  */
 /* Purpose: Global Environment Configuration & Library Definitions      */
 /* ==================================================================== */
@@ -12,4 +12,4 @@ libname sdtm "&root\outputs\sdtm";
 libname adam "&root\outputs\adam";
 
 /* Set system options for clean logs */
-options nodate number line-size=120 page-size=60;
+options nodate number linesize=120 pagesize=60;
