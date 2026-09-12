@@ -1,4 +1,4 @@
-/************************************************************************
+﻿/************************************************************************
 * Program: 01_adae_derivation.sas
 * Purpose: Import raw AE data and derive Treatment-Emergent Flag (TRTEMFL)
 * Project: Clinical SAS AE Portfolio
