@@ -12,6 +12,7 @@ An end-to-end Clinical SAS programming pipeline for processing, deriving, valida
 ## CDISC Standards & Technical Specifications
 - **CDISC SDTM Standard:** v1.7 / SDTMIG v3.3
 - **CDISC ADaM Standard:** v2.1 / ADaMIG v1.1
+- **NCI Controlled Terminology:** Release 2026-03-27 (Enforcing NCI Codelists: `C66742` for `SEX`, `C74457` for `RACE`)
 - **Software Environment:** SAS 9.4 / SAS OnDemand for Academics
 - **Target Domains & Datasets:** 
   - SDTM: Demographics (`DM`), Adverse Events (`AE`)
