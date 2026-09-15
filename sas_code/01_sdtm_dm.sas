@@ -1,4 +1,4 @@
-﻿/************************************************************************
+/************************************************************************
 * Program:       01_sdtm_dm.sas
 * Purpose:       Map RAW Demographic data to CDISC SDTM DM Domain
 * Specification: docs/specs/SDTM_DM_Spec.xlsx
@@ -10,6 +10,15 @@
 
 /* 2. SDTM DM Transformation */
 data sdtm.dm;
+   /* Explicit Attributes for Regulatory Compliance */
+    length STUDYID $10 DOMAIN $2 USUBJID $20 SEX $3 BIRTHDTC DMDTC $10;
+    label  STUDYID = "Study Identifier"
+           DOMAIN  = "Domain Abbreviation"
+           USUBJID = "Unique Subject Identifier"
+           SEX     = "Sex"
+           BIRTHDTC= "Date/Time of Birth"
+           DMDTC   = "Date/Time of Collection";
+
     set raw.demog; 
     
     /* Required Identifier */
@@ -27,13 +36,14 @@ data sdtm.dm;
 	/* ISO 8601 Character Date Conversions */
 	if not missing(BRTHDT) then do;
     /* Convert character 'MM/DD/YYYY' to numeric date, then reformat to character ISO 8601 */
-    _num_brthdt = input(strip(BRTHDT), mmddyy10.);
-    BIRTHDTC    = put(_num_brthdt, is8601da.);
+    _num_brthdt = input(strip(BRTHDT),?? mmddyy10.);
+    if not missing(_num_brthdt) then BIRTHDTC = put(_num_brthdt, is8601da.);
 	end;
 
 	if not missing(DTC) then do;
-    _num_dtc = input(strip(DTC), mmddyy10.);
-    DMDTC    = put(_num_dtc, is8601da.);
+    _num_dtc = input(strip(DTC),?? mmddyy10.);
+    if not missing(_num_dtc) then DMDTC = put(_num_dtc, is8601da.);
 	end;
+
 	drop _num_brthdt _num_dtc;
 run;
