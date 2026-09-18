@@ -1,15 +1,15 @@
-/*******************************************************************************
+﻿/*******************************************************************************
  * Program Name : 00_generate_raw_data.sas
  * Purpose      : Generate Synthetic Raw Data (300 subjects) for Daraxonrasib Trial
  * Trial        : Daraxonrasib (RMC-6236) in RAS-Mutant mPDAC
  *******************************************************************************/
 
 /* Load paths */
-%include "config.sas";
+%include "C:\sas_code\config.sas";
 
 /* 1. Generate Raw Demographics (raw.demog) */
 data raw.demog;
-    length SUBJ $10 SEX $1 ARMCD $10;
+    length SUBJ $10 SEX $3 ARMCD $10 RAW_RACE $50;
     format BRTHDT RANDDT TRTSDT yymmdd10.;
     
     call streaminit(12345); /* Fixed seed for reproducibility */
@@ -21,10 +21,20 @@ data raw.demog;
         age_yrs = round(40 + rand("Uniform") * 45);
         BRTHDT  = intnx('year', '15JAN2026'd, -age_yrs);
         
-        /* Gender: ~55% Male, 45% Female */
-        if rand("Uniform") > 0.45 then SEX = 'M';
-        else SEX = 'F';
+        /* Gender: ~50% Male, 45% Female, 5% Unknown */
+		gender_rand =rand("uniform");
+		if gender_rand < 0.50 then SEX = 'M';
+		else if gender_rand < 0.95 then SEX = 'F';
+        else SEX = 'UNK';
         
+		/* Race Distribution with Controlled Terminology Edge Cases */
+        race_rand = rand("Uniform");
+        if      race_rand < 0.50 then RAW_RACE = 'WHITE';
+        else if race_rand < 0.70 then RAW_RACE = 'BLACK OR AFRICAN AMERICAN';
+        else if race_rand < 0.85 then RAW_RACE = 'ASIAN';
+        else if race_rand < 0.95 then RAW_RACE = 'ASIAN/PACIFIC ISLANDER'; /* Tests re-mapping logic */
+        else                          RAW_RACE = '';                        /* Tests 'NOT REPORTED' missing handling */
+
         /* 1:1 Randomization: DARAX vs PBO */
         if rand("Uniform") > 0.5 then ARMCD = 'DARAX';
         else ARMCD = 'PBO';
@@ -38,7 +48,7 @@ data raw.demog;
         
         output;
     end;
-    drop i age_yrs;
+    drop i age_yrs gender_rand race_rand;
 run;
 
 /* 2. Generate Raw Adverse Events (raw_ae) with Edge Cases */

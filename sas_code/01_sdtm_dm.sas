@@ -5,13 +5,11 @@
 * Validation:    Double-programmed; Pinnacle 21 compliant
 ************************************************************************/
 
-/* 1. Environment Setup */
-%include "sas_code/config.sas";
+%include "C:\sas_code\config.sas";
 
-/* 2. SDTM DM Transformation */
 data sdtm.dm;
-   /* Explicit Attributes for Regulatory Compliance */
-    length STUDYID $10 DOMAIN $2 USUBJID $20 SEX $3 BIRTHDTC DMDTC $10;
+   /* 1. Explicit Attributes for Regulatory Compliance */
+    length STUDYID $10 DOMAIN $2 USUBJID $20 RACE $40 SEX $3 BIRTHDTC DMDTC $10;
     label  STUDYID = "Study Identifier"
            DOMAIN  = "Domain Abbreviation"
            USUBJID = "Unique Subject Identifier"
@@ -21,29 +19,32 @@ data sdtm.dm;
 
     set raw.demog; 
     
-    /* Required Identifier */
+    /* Required Identifiers */
     STUDYID = "DARAX-301";
     DOMAIN  = "DM";
+	SUBJID = strip(SUBJ); /* Create SUBJID from raw SUBJ and remove whitespace */
     USUBJID = catx('-', STUDYID, SUBJID);
     
-    /* Controlled Terminology Mapping */
-	select(upcase(GENDER));
-        when ('MALE')   SEX = 'M';
-        when ('FEMALE') SEX = 'F';
+    /* 2. Flexible Controlled Terminology Mapping */
+	/* SEX Mapping */
+	select(upcase(strip(SEX)));
+        when ('M', 'MALE')   SEX = 'M';
+        when ('F', 'FEMALE') SEX = 'F';
         otherwise       SEX = 'UNK';
     end;
     
-	/* ISO 8601 Character Date Conversions */
-	if not missing(BRTHDT) then do;
-    /* Convert character 'MM/DD/YYYY' to numeric date, then reformat to character ISO 8601 */
-    _num_brthdt = input(strip(BRTHDT),?? mmddyy10.);
-    if not missing(_num_brthdt) then BIRTHDTC = put(_num_brthdt, is8601da.);
-	end;
+	/* RACE Controlled Terminology Mapping (NCI Codelist C74457) */
+    select(upcase(strip(RAW_RACE)));
+        when ('WHITE')                      RACE = 'WHITE';
+        when ('ASIAN')                      RACE = 'ASIAN';
+        when ('BLACK OR AFRICAN AMERICAN')  RACE = 'BLACK OR AFRICAN AMERICAN';
+        when ('ASIAN/PACIFIC ISLANDER')     RACE = 'ASIAN'; /* Mapped per Spec rule */
+        otherwise                           RACE = 'NOT REPORTED';
+    end;
 
-	if not missing(DTC) then do;
-    _num_dtc = input(strip(DTC),?? mmddyy10.);
-    if not missing(_num_dtc) then DMDTC = put(_num_dtc, is8601da.);
-	end;
 
-	drop _num_brthdt _num_dtc;
+	/* Regulatory compliant & clean log approach */
+	if not missing(BRTHDT) then BIRTHDTC = put(BRTHDT, is8601da.);
+	if not missing(TRTSDT) then DMDTC    = put(TRTSDT, is8601da.);
+
 run;
