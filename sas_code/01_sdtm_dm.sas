@@ -9,11 +9,13 @@
 
 data sdtm.dm;
    /* 1. Explicit Attributes for Regulatory Compliance */
-    length STUDYID $10 DOMAIN $2 USUBJID $20 RACE $40 SEX $3 BIRTHDTC DMDTC $10;
+    length STUDYID $10 DOMAIN $2 SUBJID $10 USUBJID $20 RACE $40 SEX $3 BIRTHDTC DMDTC $10;
     label  STUDYID = "Study Identifier"
            DOMAIN  = "Domain Abbreviation"
+		   SUBJID  = "Subject Identifier for the Study"
            USUBJID = "Unique Subject Identifier"
            SEX     = "Sex"
+		   RACE    = "Race"
            BIRTHDTC= "Date/Time of Birth"
            DMDTC   = "Date/Time of Collection";
 
