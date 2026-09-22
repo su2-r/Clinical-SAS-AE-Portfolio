@@ -3,8 +3,11 @@
 /* Purpose: Global Environment Configuration & Library Definitions      */
 /* ==================================================================== */
 
-/* Root project directory */
-%let root = %str(C:\Clinical_SAS_Portfolio); 
+/* Automatically create physical folders on disk if they do not exist */
+options dlcreatedir;
+
+/* Define Project Root directory */
+%let root = C:\Github_Project_2027; 
 
 /* Define domain library references */
 libname raw  "&root\raw_data";
