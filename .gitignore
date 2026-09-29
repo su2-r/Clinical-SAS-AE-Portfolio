@@ -1,0 +1,15 @@
+# SAS Temporary Files & Logs
+*.log
+*.lst
+*.mprint
+*.sas7bndx
+*.Rhistory
+*.RData
+*.Rproj.user
+
+# SAS Datasets (Store code to generate them, not binary datasets in Git)
+*.sas7bdat
+
+# OS Generated Files
+.DS_Store
+Thumbs.db

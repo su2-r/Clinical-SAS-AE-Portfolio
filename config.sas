@@ -1,4 +1,4 @@
-/* ==================================================================== */
+﻿/* ==================================================================== */
 /* Program: config.sas                                                  */
 /* Purpose: Global Environment Configuration & Library Definitions      */
 /* ==================================================================== */
@@ -7,12 +7,12 @@
 options dlcreatedir;
 
 /* Define Project Root directory */
-%let root = C:\Github_Project_2027; 
+%let root = %sysfunc(filename(root, ..));
 
 /* Define domain library references */
-libname raw  "&root\raw_data";
-libname sdtm "&root\outputs\sdtm";
-libname adam "&root\outputs\adam";
+libname raw  "&root/data/raw";
+libname sdtm "&root/data/sdtm";
+libname adam "&root/data/adam";
 
 /* Set system options for clean logs */
 options nodate number linesize=120 pagesize=60;
