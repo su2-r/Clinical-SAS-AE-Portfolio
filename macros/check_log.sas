@@ -32,8 +32,14 @@
         end;
 
         if eof then do;
-            put "==================================================";
-            put "LOG AUDIT SUMMARY FOR: &logfile";
+			length header $200 divider $200;
+            header = "LOG AUDIT SUMMARY FOR: &logfile";
+
+            /* Dynamic divider length based on header text */
+            divider = repeat('=', max(0, length(trim(header)) - 1));
+
+			put divider;
+			put header;
             put "ERRORS FOUND:   " err_cnt;
             put "WARNINGS FOUND: " warn_cnt;
             put "NOTES/ISSUES:   " note_cnt;
@@ -41,7 +47,7 @@
                 put "STATUS: CLEAN - Log satisfies QC standards.";
             else 
                 put "STATUS: ACTION REQUIRED - Review flagged entries above.";
-            put "==================================================";
+            put divider;
         end;
     run;
 %macroend check_log;
