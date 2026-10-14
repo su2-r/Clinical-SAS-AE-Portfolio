@@ -1,4 +1,4 @@
-﻿/*******************************************************************
+/*******************************************************************
 * Portfolio Project: CDISC SDTM/ADaM Pipeline
 * Macro:             unsupp.sas
 * Purpose:           Dynamically transpose SUPP-- dataset and merge 
@@ -13,14 +13,25 @@
     %let dom = %upcase(&domain);
     %let suppdom = SUPP&dom;
 
-    /* 1. Determine key variable: DM uses USUBJID only; other domains use USUBJID + --SEQ */
+	/* 1. Parameter validation: Ensure domain parameter is passed */
+    %if %str(&domain) = %then %do;
+        %put %str(ERR)OR: [MACRO UNSUPP] Parameter DOMAIN is required.;
+        %return;
+    %end;
+
+	/* 2. Determine key variable: DM uses USUBJID only; other domains use USUBJID + --SEQ */
     %if &dom = DM %then %let keyvar = usubjid;
     %else %let keyvar = usubjid &dom.seq;
 
-    /* 2. Verify that the supplemental dataset exists in the SDTM library */
+    /* 3. Verify that the supplemental dataset exists in the SDTM library */
     %if %sysfunc(exist(sdtm.&suppdom)) %then %do;
 
-        /* 3. Transpose long-form QNAM/QVAL into wide columns */
+		/* Sort long-form SUPP-- dataset prior to transpose */
+        proc sort data=sdtm.&suppdom out=work.supp_sorted;
+            by &keyvar qnam;
+        run;
+
+	/* 4. Transpose long-form QNAM/QVAL into wide columns */
         proc transpose data=sdtm.&suppdom out=work.t_&suppdom(drop=_name_ _label_);
             by &keyvar;
             id qnam;
@@ -28,14 +39,19 @@
             var qval;
         run;
 
-        /* 4. Merge transposed supplemental variables back to parent domain */
+		/* Sort parent domain by key variables before merge */
+        proc sort data=sdtm.&dom out=work.parent_sorted;
+            by &keyvar;
+        run;
+
+    /* 5. Merge transposed supplemental variables back to parent domain */
         data sdtm.&dom;
             merge sdtm.&dom(in=parent) work.t_&suppdom;
             by &keyvar;
             if parent;
         run;
 
-        /* 5. Clean up temporary work dataset */
+	/* 6. Clean up temporary work dataset */
         proc delete data=work.t_&suppdom; run;
 
     %end;
