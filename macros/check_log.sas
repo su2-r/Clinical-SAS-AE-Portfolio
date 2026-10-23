@@ -1,4 +1,4 @@
-﻿/*******************************************************************
+/*******************************************************************
 * Portfolio Project: CDISC SDTM/ADaM Pipeline
 * Macro:             check_log.sas
 * Purpose:           Automated clinical log scanner to verify log 
@@ -50,4 +50,4 @@
             put divider;
         end;
     run;
-%macroend check_log;
+%mend check_log;
